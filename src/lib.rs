@@ -231,6 +231,7 @@
 #![warn(missing_docs)]
 
 #![cfg_attr(not(feature = "std"), no_std)]
+#![feature(non_exhaustive)]
 
 #[cfg(not(feature = "std"))]
 #[macro_use]
